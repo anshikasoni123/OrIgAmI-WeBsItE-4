@@ -1,0 +1,148 @@
+h1{
+    color :hotpink;
+    background :white;
+    background-image: url("images/bg1.jpg"); 
+}
+
+h2{
+    color : coral;
+    background : white;
+    background-image : url("images/bg2.jpg");
+}   
+
+li { list-style:  square; }
+
+h2 { word-spacing: 1.0em; }
+
+h1 { word-spacing: 1.0em; }
+
+li { word-spacing: 1.0em; }
+
+h4 { outline: 3px solid rgb(245, 10, 127); }
+
+.header{
+    display : flex;
+    justify-content : space-between;
+    background-color :black;
+}
+
+.site-description{
+    display :flex;
+    justify-content :first baseline;
+    flex-direction :column;
+}
+
+.grid{
+    display : flex;
+    justify-content : space-evenly;
+    flex-wrap : wrap;
+}
+
+.grid img{
+    border : 2px solid black;
+    border-radius: 50px;
+    color: black;
+    box-shadow: -5px 5px;
+}
+
+
+.origami {
+    border-radius: 20px;
+    background-color :white;
+
+    width :310px;
+    font-family: fantasy;
+
+    color: black;
+    box-shadow: -5px 5px;
+
+    cursor:help;
+
+        position :relative;
+}
+
+.text {
+    font-family: cursive;
+
+    cursor:help;
+}
+
+
+body { 
+    background-color :pink;
+    background-image: url("images/bg3.jpg");
+}
+
+h2 { font-variant:small-caps; }
+
+.font{
+    font-family :cursive;
+
+    cursor: none;
+
+    color: black;
+    box-shadow: 5px -5px;
+}
+
+.heading{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    cursor :none;
+}
+
+
+
+.menu {
+    display :flex;
+    justify-content :space-between;
+    background-color :black;
+    font-size : 20px;
+    font-family : sans-serif;
+    font-weight :400;
+    color : white;
+}
+
+.footer{
+    display : flex;
+    justify-content : flex-end;
+}
+
+
+p,h1{
+    text-align: center;
+}
+
+ a :link{
+    color :brown;
+}
+
+ a :visited{
+    color :darkcyan;
+} 
+
+ .menu {
+    top :50%;
+} 
+
+ .menu a{
+    left :50%;
+} 
+
+ .origami h3{
+    color :crimson;
+    position :absolute;
+    top :50%;
+    left :50%;
+    transform : translate(-50%,-50%);
+    opacity :0;
+} 
+
+
+ .origami :hover h3{
+    font-size: xx-large;
+    opacity :1;
+} 
+
+ .origami :hover img{
+    opacity :0.33;
+}  
